@@ -1,0 +1,32 @@
+module epharm {
+    imports {
+        Base
+    }
+
+    item CodeinePills
+    {
+        Weight = 0.5,
+        Type = Drainable,
+        UseWhileEquipped = False,
+        UseDelta = 0.1,
+        DisplayName = Morphine Pills,
+        Icon = PillsAntidepressant,
+        Medical = TRUE,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+
+    item CodeineCoughSyrup
+    {
+        Weight = 0.5,
+        Type = Drainable,
+        UseWhileEquipped = False,
+        UseDelta = 0.25,
+        DisplayName = Codeine Cough Syrup,
+        Icon = CoughSyrup,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+}

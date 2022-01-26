@@ -1,0 +1,43 @@
+module epharm {
+    imports {
+        Base
+    }
+
+    item MorphinePills
+    {
+        Weight = 0.5,
+        Type = Drainable,
+        UseWhileEquipped = False,
+        UseDelta = 0.1,
+        DisplayName = Morphine Pills,
+        Icon = PillsAntidepressant,
+        Medical = TRUE,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+
+    item MorphineVial
+    {
+        Weight = 0.25,
+        Type = Drainable,
+        UseWhileEquipped = False,
+        UseDelta = 0.25,
+        DisplayName = Morphine Vial,
+        Icon = Vial,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+
+    item MorphineInjection
+    {
+        Weight = 0.3,
+        Type = Food,
+        DisplayName = Morphine Injection,
+        Icon = FilledSyringe,
+        DisplayCategory = FirstAid,
+        WorldStaticModel = PillBottleGround,
+        Medical = TRUE,
+    }
+}

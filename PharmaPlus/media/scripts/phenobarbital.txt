@@ -1,0 +1,43 @@
+module epharm {
+    imports {
+        Base
+    }
+
+    item PhenobarbitalPills
+    {
+        Weight = 0.5,
+        Type = Drainable,
+        UseWhileEquipped = False,
+        UseDelta = 0.1,
+        DisplayName = Phenobarbital Pills,
+        Icon = PillsAntidepressant,
+        Medical = TRUE,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+
+    item PhenobarbitalVial
+    {
+        Weight = 0.25,
+        Type = Drainable,
+        UseWhileEquipped = False,
+        UseDelta = 0.25,
+        DisplayName = Phenobarbital Vial,
+        Icon = Vial,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+
+    item PhenobarbitalInjection
+    {
+        Weight = 0.3,
+        Type = Food,
+        DisplayName = Phenobarbital Injection,
+        Icon = FilledSyringe,
+        DisplayCategory = FirstAid,
+        WorldStaticModel = PillBottleGround,
+        Medical = TRUE,
+    }
+}

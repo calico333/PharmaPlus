@@ -1,0 +1,43 @@
+module epharm {
+    imports {
+        Base
+    }
+
+    item OxycodonePills
+    {
+        Weight = 0.5,
+        Type = Drainable,
+        UseWhileEquipped = False,
+        UseDelta = 0.1,
+        DisplayName = Oxycodone Pills,
+        Icon = PillsAntidepressant,
+        Medical = TRUE,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+
+    item OxycodoneVial
+    {
+        Weight = 0.25,
+        Type = Drainable,
+        UseWhileEquipped = False,
+        UseDelta = 0.25,
+        DisplayName = Oxycodone Vial,
+        Icon = Vial,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+
+    item OxycodoneInjection
+    {
+        Weight = 0.3,
+        Type = Food,
+        DisplayName = Oxycodone Injection,
+        Icon = FilledSyringe,
+        DisplayCategory = FirstAid,
+        WorldStaticModel = PillBottleGround,
+        Medical = TRUE,
+    }
+}

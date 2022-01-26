@@ -1,0 +1,19 @@
+module epharm {
+    imports {
+        Base
+    }
+
+    item HydrocodonePills
+    {
+        Weight = 0.5,
+        Type = Drainable,
+        UseWhileEquipped = False,
+        UseDelta = 0.1,
+        DisplayName = Hydrocodone Pills,
+        Icon = PillsAntidepressant,
+        Medical = TRUE,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+}

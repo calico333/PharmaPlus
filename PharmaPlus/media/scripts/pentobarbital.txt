@@ -1,0 +1,29 @@
+module epharm {
+    imports {
+        Base
+    }
+
+    item PentobarbitalVial
+    {
+        Weight = 0.25,
+        Type = Drainable,
+        UseWhileEquipped = False,
+        UseDelta = 0.25,
+        DisplayName = Pentobarbital Vial,
+        Icon = Vial,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+
+    item PentobarbitalInjection
+    {
+        Weight = 0.3,
+        Type = Food,
+        DisplayName = Pentobarbital Injection,
+        Icon = FilledSyringe,
+        DisplayCategory = FirstAid,
+        WorldStaticModel = PillBottleGround,
+        Medical = TRUE,
+    }
+}

@@ -1,0 +1,19 @@
+module epharm {
+    imports {
+        Base
+    }
+
+    item ZolpidemPills
+    {
+        Weight = 0.5,
+        Type = Drainable,
+        UseWhileEquipped = False,
+        UseDelta = 0.2,
+        DisplayName = Zolpidem Pills,
+        Icon = PillsAntidepressant,
+        Medical = TRUE,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+}

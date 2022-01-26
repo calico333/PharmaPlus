@@ -1,0 +1,16 @@
+module epharm {
+    imports {
+        Base
+    }
+
+    item EmptySyringe
+    {
+        Weight = 0.1,
+        Type = Normal,
+        DisplayName = Empty Syringe,
+        Icon = EmptySyringe,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+}

@@ -1,0 +1,52 @@
+module epharm {
+    imports {
+        Base
+    }
+
+    item HeroinPowder
+    {
+        Weight = 0.1,
+        Type = Drainable,
+        UseWhileEquipped = False,
+        UseDelta = 0.25,
+        DisplayName = Heroin Powder,
+        Icon = Powder,
+        Medical = TRUE,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+
+    item UncookedHeroinSpoon
+    {
+        Weight = 0.25,
+        Type = Normal,
+        DisplayName = Uncooked Heroin Spoon,
+        Icon = UncookedHeroin,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+
+    item CookedHeroinSpoon
+    {
+        Weight = 0.25,
+        Type = Normal,
+        DisplayName = Cooked Heroin Spoon,
+        Icon = CookedHeroin,
+        DisplayCategory = FirstAid,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+    }
+
+    item HeroinInjection
+    {
+        Weight = 0.3,
+        Type = Food,
+        DisplayName = Heroin Injection,
+        Icon = FilledSyringe,
+        DisplayCategory = FirstAid,
+        WorldStaticModel = PillBottleGround,
+        Medical = TRUE,
+    }
+}
